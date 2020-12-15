@@ -14,11 +14,23 @@
     main {
         align-items: center;
         text-align: center;
+        padding: 2rem;
 
         .lg-heading {
             line-height: 1;
             margin-bottom: 1rem;
+            font-size: 3rem;
         }
+    }
+
+    main#home {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    main#work,main#about,main#contact,main#portfolio-desc {
+        padding-top: 4rem;
     }
 
     ul.menu-nav, 
@@ -43,11 +55,11 @@
         transform: translate3d(100%,0,0);
 
         .portrait {
-            background: url(../dist/img/foto.jpg);
+            background: url('../img/foto.jpg');
             background-size: cover;
             background-position: center;
-            width: 150px;
-            height: 150px;
+            width: 100px;
+            height: 100px;
         }
     }
 
@@ -66,6 +78,10 @@
             'skill-3 skill-4'
             'skill-5 skill-6';
             grid-template-columns: repeat(2, 1fr);
+        }
+
+        .bio p {
+            font-size: 1.2rem;
         }
     }
 

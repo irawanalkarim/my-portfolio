@@ -1,7 +1,7 @@
 $primary-color: rgb(10, 35, 177);
 $secondary-color: #f3cb17;
 $show-home-image: true;
-$home-image: url(../dist/img/bg.jpg);
+$home-image: url('../img/bg.jpg');
 $background-opacity: 0.9;
 
 @mixin easeOut {
